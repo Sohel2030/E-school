@@ -1,0 +1,83 @@
+/*media start*/
+
+/* Extra small devices (phones, 320px and down) */
+@media only screen and (max-width: 320px) {
+	.logo {
+		width: 150px;
+  }
+  .menu ul li a{
+		 margin-bottom: 0 6px;
+		 padding: 0 10px;
+  }
+  .b_text {
+    text-align: center !important;
+}
+.b_light {
+    margin-top: 50px;
+}
+.b_text h1 {
+    margin: 10px 0 20px;
+    font-size: 25px;
+    line-height: 28px;
+}
+.banner {
+    padding: 60px 0 30px;
+	
+  }
+  .py-5 {
+    padding-top: 0.8rem !important;
+    padding-bottom: 0.8rem !important;
+}
+  
+  /* Small devices (portrait tablets and large phones, 576px and up) */
+  @media only screen and (min-width: 576px) {
+	.logo {
+		width: 170px;
+	}
+	.menu ul li a{
+		   margin-bottom: 0 6px;
+		   padding: 0 10px;
+	}
+	.b_text {
+		padding-top: 40px;
+		text-align: center !important;
+	}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+	.menu ul li a{
+		margin-bottom: 0 6px;
+		padding: 0 10px;
+ }
+ .b_text {
+	 margin-top: 30px;
+	 text-align: center !important;
+	}
+ 
+ }
+ .b_text h1{
+	 margin: 10px 0 11px;
+ }
+ 
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+	.menu ul li a{
+	    padding: 0 24px !important;
+}
+/*banner srart*/
+.b_text h1 {
+    font-size: 40px;
+}
+	
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+	
+  }
+
+
+/*media end*/
